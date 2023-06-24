@@ -31,21 +31,21 @@ textarea{
 
 @font-face {
     font-family: Oswald;
-    src: url('../src/fonts//oswald/Oswald-Light.ttf');
+    src: url('../src/fonts/oswald/Oswald-Light.ttf');
     font-style: normal;
     font-weight: 200;
 }
 
 @font-face {
     font-family: Oswald;
-    src: url('../src/fonts//oswald/Oswald-Medium.ttf');
+    src: url('../src/fonts/oswald/Oswald-Medium.ttf');
     font-style: normal;
     font-weight: 300;
 }
 
 @font-face {
     font-family: Oswald;
-    src: url('../src/fonts//oswald/Oswald-Bold.ttf');
+    src: url('../src/fonts/oswald/Oswald-Bold.ttf');
     font-style: normal;
     font-weight: bold;
 }
