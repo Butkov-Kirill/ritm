@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>РИТМ</title>
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/buttons.css">
+        <link rel="stylesheet" href="./styles/content.css">
+        <link rel="stylesheet" href="./styles/menu.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="./src/images/logo.svg" alt="logo" class="logo">
+            <h1 class="siteName">РИТМ</h1>
+        </div>
+        <div class="wrapper">
+            <div class="main_buttons">
+                <button disabled>Главная</button>
+                <button onclick="gotoPage('./pages/aboutSite.html')">О сайте</button>
+            </div>
+
+            <div class="content">
+                <div class="posts" id="posts"></div>
+                <div class="menu_bar">
+                    <div class="menu">
+                        <h2 class="name_menu">Топ оборудывания</h2>
+                        <ul>
+                            <li><a href="./pages/tops/midiKeyboards.html">MIDI-Клавиатуры</a></li>
+                            <li><a href="./pages/tops/soundCards.html">Звуковые карты</a></li>
+                            <li><a href="./pages/tops/microphones.html">Микрофоны</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./data/months.js"></script>
+        <script src="./data/posts.js"></script>
+        <script src="./js/postsLoader.js"></script>
+        <script src="./js/openPostPage.js"></script>
+        <script src="./js/gotoPage.js"></script>
+    </body>
+</html>

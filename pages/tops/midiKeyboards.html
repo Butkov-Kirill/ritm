@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>РИТМ</title>
+        <link rel="stylesheet" href="../../styles/index.css">
+        <link rel="stylesheet" href="../../styles/main.css">
+        <link rel="stylesheet" href="../../styles/buttons.css">
+        <link rel="stylesheet" href="../../styles/content.css">
+        <link rel="stylesheet" href="../../styles/menu.css">
+        <link rel="stylesheet" href="../../styles/products.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="../../src/images/logo.svg" alt="logo" class="logo">
+            <h1 class="siteName">РИТМ</h1>
+        </div>
+        <div class="wrapper">
+            <div class="main_buttons">
+                <button onclick="gotoPage('../../index.html')">Главная</button>
+                <button onclick="gotoPage('../aboutSite.html')">О сайте</button>
+            </div>
+
+            <div class="content">
+                <div class="products">
+                    <div class="product">
+                        <img src="../../src/images/midi/nektar.jpg" alt="img">
+                        <h2 class="name">Nektar SE25</h2>
+                        <p class="cost">Средняя цена: 5000р</p>
+                        <button onclick="search('купить Nektar SE25')">Искать в интернете</button>
+                    </div>
+                    <div class="product">
+                        <img src="../../src/images/midi/mkp.jpg" alt="img">
+                        <h2 class="name">Akai MOK Mini Mk3</h2>
+                        <p class="cost">Средняя цена: 11000р</p>
+                        <button onclick="search('купить Akai MOK Mini Mk3')">Искать в интернете</button>
+                    </div>
+                    <div class="product">
+                        <img src="../../src/images/midi/nov.png" alt="img">
+                        <h2 class="name">Novation Launchkey Mini Mk3</h2>
+                        <p class="cost">Средняя цена: 11000р</p>
+                        <button onclick="search('купить Novation Launchkey Mini Mk3')">Искать в интернете</button>
+                    </div>
+                    <div class="product">
+                        <img src="../../src/images/midi/ik.jpg" alt="img">
+                        <h2 class="name">IK Multimedia iRig Keys I / O 49</h2>
+                        <p class="cost">Средняя цена: 25000р</p>
+                        <button onclick="search('купить IK Multimedia iRig Keys I / O 49')">Искать в интернете</button>
+                    </div>
+                </div>
+                <div class="menu_bar">
+                    <div class="menu">
+                        <h2 class="name_menu">Топ оборудывания</h2>
+                        <ul>
+                            <li><a href="#">MIDI-Клавиатуры</a></li>
+                            <li><a href="./soundCards.html">Звуковые карты</a></li>
+                            <li><a href="./microphones.html">Микрофоны</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../js/gotoPage.js"></script>
+        <script src="../../js/searchInBrowser.js"></script>
+    </body>
+</html>

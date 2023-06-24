@@ -1,0 +1,103 @@
+.comments_menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(36, 36, 36, 0.50);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.comments_menu textarea{
+    background: #131313;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.comments_menu textarea:focus{
+    outline: none;
+}
+
+.comments_menu button{
+    background: #131313;
+    border: none;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    transition: 0.2s;   
+}
+
+.comments_menu button:hover{
+    background: #151515;
+    transition: 0.2s;
+}
+
+.comment{
+    border-radius: 10px;
+    background: #131313;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.comment:last-child{
+    margin-bottom: 0;
+}
+
+.comment .username{
+    font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.comment .text {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.comments_headline{
+    margin-top: 20px;
+}
+
+@media (max-width: 1000px){
+    .comments_menu{
+        padding: 30px;
+        margin-top: 30px;
+    }
+
+    .comments_headline{
+        font-size: 50px;
+    }
+    
+    .comments_menu textarea{
+        padding: 20px;
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    
+    .comments_menu button{
+        width: 400px;
+        font-size: 40px;
+        margin-top: 30px;
+        padding: 20px;  
+    }
+    
+    .comment{
+        border-radius: 10px;
+        padding: 30px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .comment .username{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    
+    .comment .text {
+        font-size: 35px;
+        letter-spacing: 3px;
+    }
+}

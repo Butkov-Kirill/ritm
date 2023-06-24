@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>РИТМ</title>
+        <link rel="stylesheet" href="../../styles/index.css">
+        <link rel="stylesheet" href="../../styles/main.css">
+        <link rel="stylesheet" href="../../styles/buttons.css">
+        <link rel="stylesheet" href="../../styles/content.css">
+        <link rel="stylesheet" href="../../styles/menu.css">
+        <link rel="stylesheet" href="../../styles/products.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="../../src/images/logo.svg" alt="logo" class="logo">
+            <h1 class="siteName">РИТМ</h1>
+        </div>
+        <div class="wrapper">
+            <div class="main_buttons">
+                <button onclick="gotoPage('../../index.html')">Главная</button>
+                <button onclick="gotoPage('../aboutSite.html')">О сайте</button>
+            </div>
+
+            <div class="content">
+                <div class="products">
+                    <div class="product">
+                        <img src="../../src/images/micro/fifine.jpg" alt="img">
+                        <h2 class="name">FIFINE USB K690</h2>
+                        <p class="cost">Средняя цена: 6.500р</p>
+                        <button onclick="search('купить FIFINE USB K690')">Искать в интернете</button>
+                    </div>
+                    <div class="product">
+                        <img src="../../src/images/micro/rode.jpg" alt="img">
+                        <h2 class="name">RODE NT1 Kit</h2>
+                        <p class="cost">Средняя цена: 30.000р</p>
+                        <button onclick="search('купить RODE NT1 Kit')">Искать в интернете</button>
+                    </div>
+                    <div class="product">
+                        <img src="../../src/images/micro/lewitt.jpg" alt="img">
+                        <h2 class="name">LEWITT LCT 240 PRO</h2>
+                        <p class="cost">Средняя цена: 14.000р</p>
+                        <button onclick="search('купить LEWITT LCT 240 PRO')">Искать в интернете</button>
+                    </div>
+                </div>
+                <div class="menu_bar">
+                    <div class="menu">
+                        <h2 class="name_menu">Топ оборудывания</h2>
+                        <ul>
+                            <li><a href="./midiKeyboards.html">MIDI-Клавиатуры</a></li>
+                            <li><a href="./soundCards.html">Звуковые карты</a></li>
+                            <li><a href="#">Микрофоны</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../js/gotoPage.js"></script>
+        <script src="../../js/searchInBrowser.js"></script>
+    </body>
+</html>

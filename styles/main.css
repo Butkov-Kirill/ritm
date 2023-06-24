@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    padding: 14px 150px;
+    background: #121212;
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.80);
+}
+
+.logo{
+    width: 50px;
+}
+
+.siteName{
+    font-size: 30px;
+    margin-left: 10px;
+    letter-spacing: 3.6px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+@media all and (max-width: 1000px) {
+    .header{
+        padding: 20px 80px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .siteName{
+        font-size: 50px;
+        margin-left: 15px;
+    }
+
+    .wrapper{
+        padding: 0 50px;
+    }
+}

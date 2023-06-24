@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>РИТМ</title>
+        <link rel="stylesheet" href="../../styles/index.css">
+        <link rel="stylesheet" href="../../styles/main.css">
+        <link rel="stylesheet" href="../../styles/buttons.css">
+        <link rel="stylesheet" href="../../styles/content.css">
+        <link rel="stylesheet" href="../../styles/menu.css">
+        <link rel="stylesheet" href="../../styles/products.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="../../src/images/logo.svg" alt="logo" class="logo">
+            <h1 class="siteName">РИТМ</h1>
+        </div>
+        <div class="wrapper">
+            <div class="main_buttons">
+                <button onclick="gotoPage('../../index.html')">Главная</button>
+                <button onclick="gotoPage('../aboutSite.html')">О сайте</button>
+            </div>
+
+            <div class="content">
+                <div class="products">
+                    <div class="product">
+                        <img src="../../src/images/soundCards/soundKey.jpg" alt="img">
+                        <h2 class="name">Steinberg UR12</h2>
+                        <p class="cost">Средняя цена: 12000р</p>
+                        <button onclick="search('купить NSteinberg UR12')">Искать в интернете</button>
+                    </div>
+                    <div class="product">
+                        <img src="../../src/images/soundCards/behringer.jpg" alt="img">
+                        <h2 class="name">Behringer U-Phoria UMC202HD</h2>
+                        <p class="cost">Средняя цена: 7000р</p>
+                        <button onclick="search('купить Behringer U-Phoria UMC202HD')">Искать в интернете</button>
+                    </div>
+                    <div class="product">
+                        <img src="../../src/images/soundCards/Roland.jpg" alt="img">
+                        <h2 class="name">Roland Rubix22</h2>
+                        <p class="cost">Средняя цена: 18000р</p>
+                        <button onclick="search('купить Roland Rubix22')">Искать в интернете</button>
+                    </div>
+                    <div class="product">
+                        <img src="../../src/images/soundCards/focusrite.jpg" alt="img">
+                        <h2 class="name">Focusrite Scarlett Solo 3rd Gen</h2>
+                        <p class="cost">Средняя цена: 12.000р</p>
+                        <button onclick="search('купить Focusrite Scarlett Solo 3rd Gen')">Искать в интернете</button>
+                    </div>
+                    <div class="product">
+                        <img src="../../src/images/soundCards/maudio.jpg" alt="img">
+                        <h2 class="name">M-Audio AIR 192|4</h2>
+                        <p class="cost">Средняя цена: 13.000р</p>
+                        <button onclick="search('купить M-Audio AIR 192|4')">Искать в интернете</button>
+                    </div>
+                </div>
+                <div class="menu_bar">
+                    <div class="menu">
+                        <h2 class="name_menu">Топ оборудывания</h2>
+                        <ul>
+                            <li><a href="./midiKeyboards.html">MIDI-Клавиатуры</a></li>
+                            <li><a href="#">Звуковые карты</a></li>
+                            <li><a href="./microphones.html">Микрофоны</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../js/gotoPage.js"></script>
+        <script src="../../js/searchInBrowser.js"></script>
+    </body>
+</html>

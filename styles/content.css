@@ -1,0 +1,171 @@
+.content{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    background: #121212;
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.80);
+    padding: 75px 75px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.post{
+    margin-bottom: 38px;
+}
+
+.post:last-child{
+    margin-bottom: 0;
+}
+
+.post .header_post{
+    display: flex;
+}
+
+.post .date{
+    background: rgba(36, 36, 36, 0.50);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post .date .date_text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.post .date .month{
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.post .date .number{
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.post .header_post .name_post{
+    color: #FF8A00;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 3px;
+    margin-left: 28px;
+    font-weight: 200;
+}
+
+.post .content_post{
+    margin-top: 20px;
+}
+
+.post .content_post .text{
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+
+.post .content_post .text span{
+    color: #FF8A00;
+}
+
+.post .footbar_post{
+    margin-top: 10px;
+    padding: 5px 20px;
+    display: flex;
+    background: rgba(36, 36, 36, 0.50);
+    font-size: 20px;
+}
+
+.footbar_post button{
+    margin-left: 30px;
+    color: #FF8A00;
+    padding: 0px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.footbar_post button:hover{
+    color: #ff9923;
+    transition: 0.2s;
+}
+
+@media all and (max-width: 1000px) {
+    .content{
+        padding: 75px 75px;
+        flex-direction: column;
+    }
+
+    .posts{
+        width: 100%;
+    }
+
+    .post{
+        margin-bottom: 80px;
+    }
+
+    .post:last-child{
+        margin-bottom: 50px;
+    }
+    
+    .post .date{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .post .date .month{
+        font-size: 35px;
+        line-height: 60px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+    .post .date .number{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    .post .header_post .name_post{
+        font-size: 50px;
+        line-height: auto;
+        margin-left: 28px;
+        margin-top: 15px;
+    }
+    
+    .post .content_post{
+        margin-top: 30px;
+    }
+    
+    .post .content_post .text{
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 3px;
+    }
+    
+    .post .footbar_post{
+        margin-top: 40px;
+        padding: 30px 30px;
+        font-size: 40px;
+    }
+    
+    .footbar_post button{
+        margin-left: auto;
+        margin-right: 0;
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,31 @@
+.text_content{
+    width: 70%;
+}
+
+.text_content .caption{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.text_content p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+@media (max-width: 1000px){
+    .text_content{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .text_content .caption{
+        font-size: 70px;
+    }
+    
+    .text_content p {
+        font-size: 59px;
+        padding-top: 30px;
+    }
+}
