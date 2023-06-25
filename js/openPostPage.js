@@ -3,5 +3,5 @@ const openPostPage = postId => {
 
     localStorage.setItem("post", JSON.stringify(post))
 
-    window.location = `../pages/post.html`
+    window.location = `./pages/post.html`
 }
